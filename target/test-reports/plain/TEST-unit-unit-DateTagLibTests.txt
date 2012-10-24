@@ -1,0 +1,15 @@
+Testsuite: DateTagLibTests
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0,166 sec
+------------- Standard Output ---------------
+--Output from testThisYear--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testThisYear--
+------------- ---------------- ---------------
+
+Testcase: testThisYear took 0,151 sec
+	Caused an ERROR
+No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+java.lang.IllegalStateException: No thread-bound request found: Are you referring to request attributes outside of an actual web request, or processing a request outside of the originally receiving thread? If you are actually operating within a web request and still receive this message, your code is probably running outside of DispatcherServlet/DispatcherPortlet: In this case, use RequestContextListener or RequestContextFilter to expose the current request.
+	at DateTagLibTests.testThisYear(DateTagLibTests.groovy:31)
+
